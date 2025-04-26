@@ -92,7 +92,11 @@ btnPlus.addEventListener("click", () => {
 });
 
 (() => {
+  for (let i = 0; i < 51; i++) {
+    img.src = `img/img (${i + 1}).jpg`;
+  }
 
+  img.src = `img/img (${1}).jpg`;
   PrevStep();
   NextStep();
 })();
