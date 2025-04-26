@@ -76,7 +76,7 @@ function PrevStep() {
   if (activeStep - 1 > -1) {
     activeStep -= 1;
   } else {
-    activeStep = 50; 
+    activeStep = 50;
   }
 
   img.src = `img/img (${activeStep + 1}).jpg`;
@@ -91,8 +91,8 @@ btnPlus.addEventListener("click", () => {
   NextStep();
 });
 
-(() => {
-  for (let i = 0; i < 51; i++) {
+const t = 51(() => {
+  for (let i = 0; i < t; i++) {
     img.src = `img/img (${i + 1}).jpg`;
   }
 
