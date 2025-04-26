@@ -76,7 +76,7 @@ function PrevStep() {
   if (activeStep - 1 > -1) {
     activeStep -= 1;
   } else {
-    activeStep = 50;
+    activeStep = 50; 
   }
 
   img.src = `img/img (${activeStep + 1}).jpg`;
