@@ -91,7 +91,9 @@ btnPlus.addEventListener("click", () => {
   NextStep();
 });
 
-const t = 51(() => {
+const t = 51;
+
+(() => {
   for (let i = 0; i < t; i++) {
     img.src = `img/img (${i + 1}).jpg`;
   }
